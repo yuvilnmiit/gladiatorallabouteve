@@ -1,4 +1,4 @@
-URL -https://1drv.ms/t/s!Alw4R_5A7en-pSZERhZ7_ha5eiJA?e=v7dLih
+URL of github to sync- https://raw.githubusercontent.com/yuvilnmiit/gladiatorallabouteve/main/AutoFillBms.txt
 
 document.querySelector('input#txtEmail').value='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'[Math.floor(Math.random()*26)] + Math.random().toString(36).substring(2,Math.floor(Math.random()*(11))+10)+ '@domain.com';
 
