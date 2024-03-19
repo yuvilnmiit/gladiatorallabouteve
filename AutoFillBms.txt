@@ -215,18 +215,6 @@ r56,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","htt
 r47,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBOGODB""]')?.click();","https://in.bookmyshow.com/payment",1,c1
 r84,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4639170003635440;","https://in.bookmyshow.com/payment",1,c1
 r87,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c1
-r458,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
-r457,0,"Email","{@emailList}","https://in.bookmyshow.com/payment",1,c45
-r456,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c45
-r455,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c45
-r454,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
-r323,4,"","document.querySelector('div#dOffersHeadTitle')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c45
-r326,4,"","document.querySelector('input#offCode_disc-codes').value='BASTAR';","https://in.bookmyshow.com/payment",1,c45
-r327,4,"","document.querySelector('#offApplyBtn_disc-codes')?.click();","https://in.bookmyshow.com/payment",1,c45
-r344,4,"","setTimeout(() => {document.querySelector('div#offSuccess_disc-codes p.__success+a')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
-r449,4,"","setTimeout(() => {document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__caption')?.click();}, 2000);","",1,c45
-r345,4,"","setTimeout(() => {document.querySelector('div.pm-list li#dTGftVchr')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
-r452,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r423,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
 r115,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c12
 r116,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c12
@@ -245,6 +233,18 @@ r101,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","ht
 r102,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBOGODB""]')?.click();","https://in.bookmyshow.com/payment",1,c10
 r103,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430003626008;","https://in.bookmyshow.com/payment",1,c10
 r104,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c10
+r458,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r457,0,"Email","{@emailList}","https://in.bookmyshow.com/payment",1,c45
+r456,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c45
+r455,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c45
+r454,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r323,4,"","document.querySelector('div#dOffersHeadTitle')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c45
+r326,4,"","document.querySelector('input#offCode_disc-codes').value='BASTAR';","https://in.bookmyshow.com/payment",1,c45
+r327,4,"","document.querySelector('#offApplyBtn_disc-codes')?.click();","https://in.bookmyshow.com/payment",1,c45
+r344,4,"","setTimeout(() => {document.querySelector('div#offSuccess_disc-codes p.__success+a')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r449,4,"","setTimeout(() => {document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__caption')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r345,4,"","setTimeout(() => {document.querySelector('div.pm-list li#dTGftVchr')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r452,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
