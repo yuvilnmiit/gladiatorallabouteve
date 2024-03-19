@@ -1,5 +1,7 @@
 URL of github to sync- https://raw.githubusercontent.com/yuvilnmiit/gladiatorallabouteve/main/AutoFillBms.txt
+"Mobile",".*"," =>
 
+"Email",".*"," => 
 document.querySelector('input#txtEmail').value='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'[Math.floor(Math.random()*26)] + Math.random().toString(36).substring(2,Math.floor(Math.random()*(11))+10)+ '@domain.com';
 
 Math.floor(Math.random() * (max - min + 1)) + min
