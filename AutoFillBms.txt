@@ -235,7 +235,7 @@ r84,4,"","document.querySelector('input#offCode_cc-dc-nb').value=463917000363544
 r87,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c1
 r458,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r457,0,"Email","{@emailList}","https://in.bookmyshow.com/payment",1,c45
-r456,0,"Mobile","+91{@mobileListRand2}","https://in.bookmyshow.com/payment",1,c45
+r456,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c45
 r455,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c45
 r454,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r323,4,"","document.querySelector('div#dOffersHeadTitle')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c45
@@ -245,6 +245,7 @@ r344,4,"","setTimeout(() => {document.querySelector('div#offSuccess_disc-codes p
 r449,4,"","setTimeout(() => {document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__caption')?.click();}, 2000);","",1,c45
 r345,4,"","setTimeout(() => {document.querySelector('div.pm-list li#dTGftVchr')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r452,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r459,0,"test","test","",1,c45
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
