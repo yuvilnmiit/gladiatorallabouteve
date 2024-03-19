@@ -245,6 +245,7 @@ r344,4,"","setTimeout(() => {document.querySelector('div#offSuccess_disc-codes p
 r449,4,"","setTimeout(() => {document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__caption')?.click();}, 2000);","",1,c45
 r345,4,"","setTimeout(() => {document.querySelector('div.pm-list li#dTGftVchr')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r452,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r460,0,"test","test","",1,c45
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
