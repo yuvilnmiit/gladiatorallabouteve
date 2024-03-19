@@ -28,24 +28,24 @@ c37,"PageRefresh","","",,,
 c106,"amex payment","billdesk.com/pgidsk/pgmerc/amexcard/amex_card.jsp","",,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
-r293,0,"Mobile","+917740893094","https://in.bookmyshow.com/payment",1,c33
-r294,0,"Email","rajaraju1@gmail.com","https://in.bookmyshow.com/payment",1,c33
+r293,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c33
+r294,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c33
 r295,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c33
 r296,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c33
 r297,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c33
 r298,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c33
 r299,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600047573330;","https://in.bookmyshow.com/payment",1,c33
 r300,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c33
-r285,0,"Mobile","+917740893094","https://in.bookmyshow.com/payment",1,c32
-r286,0,"Email","redfightclub@proton.me","https://in.bookmyshow.com/payment",1,c32
+r285,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c32
+r286,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c32
 r287,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c32
 r288,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c32
 r289,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c32
 r290,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c32
 r291,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018642304;","https://in.bookmyshow.com/payment",1,c32
 r292,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c32
-r269,0,"Mobile","+918308044622","https://in.bookmyshow.com/payment",1,c30
-r270,0,"Email","banescarface@proton.me","https://in.bookmyshow.com/payment",1,c30
+r269,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c30
+r270,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c30
 r271,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c30
 r272,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c30
 r273,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c30
@@ -55,8 +55,8 @@ r276,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://i
 r318,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","",1,c36
 r319,4,"","document.location.reload();","",1,c37
 r420,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c79
-r399,0,"Mobile","+916740893094","https://in.bookmyshow.com/payment",1,c79
-r400,0,"Email","downfallbane@proton.me","https://in.bookmyshow.com/payment",1,c79
+r399,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c79
+r400,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c79
 r401,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c79
 r402,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c79
 r403,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c79
@@ -64,8 +64,8 @@ r404,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r405,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430006358914;","https://in.bookmyshow.com/payment",1,c79
 r406,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c79
 r421,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c11
-r106,0,"Mobile","+916611822896","https://in.bookmyshow.com/payment",1,c11
-r107,0,"Email","standbymered@proton.me","https://in.bookmyshow.com/payment",1,c11
+r106,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c11
+r107,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c11
 r108,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c11
 r109,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c11
 r110,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c11
@@ -73,26 +73,17 @@ r111,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r112,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430003242533;","https://in.bookmyshow.com/payment",1,c11
 r113,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c11
 r422,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","",1,c78
-r391,0,"Mobile","+916611822896","https://in.bookmyshow.com/payment",1,c78
-r392,0,"Email","fishingcamel@proton.me","https://in.bookmyshow.com/payment",1,c78
+r391,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c78
+r392,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c78
 r393,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c78
 r394,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c78
 r395,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c78
 r396,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBOGODB""]')?.click();","https://in.bookmyshow.com/payment",1,c78
 r397,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430004058789;","https://in.bookmyshow.com/payment",1,c78
 r398,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c78
-r423,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
-r115,0,"Mobile","+916308044622","https://in.bookmyshow.com/payment",1,c12
-r116,0,"Email","fishmillet@proton.me","https://in.bookmyshow.com/payment",1,c12
-r117,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c12
-r118,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
-r119,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c12
-r120,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBOGODB""]')?.click();","https://in.bookmyshow.com/payment",1,c12
-r121,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430006107121;","https://in.bookmyshow.com/payment",1,c12
-r122,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c12
 r424,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c26
-r268,0,"Mobile","+916414002296","",1,c26
-r242,0,"Email","yuvgoal@proton.me","https://in.bookmyshow.com/payment",1,c26
+r268,0,"Mobile","+91{@mobileList}","",1,c26
+r242,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c26
 r243,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c26
 r244,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c26
 r245,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c26
@@ -100,8 +91,8 @@ r246,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r247,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4147524954501925;","https://in.bookmyshow.com/payment",1,c26
 r248,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c26
 r425,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c25
-r232,0,"Mobile","+916887452488","https://in.bookmyshow.com/payment",1,c25
-r233,0,"Email","yuvppp2@gmail.com","https://in.bookmyshow.com/payment",1,c25
+r232,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c25
+r233,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c25
 r234,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c25
 r235,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c25
 r236,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c25
@@ -109,8 +100,8 @@ r237,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r238,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600078055611;","https://in.bookmyshow.com/payment",1,c25
 r239,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c25
 r426,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c24
-r223,0,"Mobile","+916740893094","https://in.bookmyshow.com/payment",1,c24
-r224,0,"Email","rel8440829139@gmail.com","https://in.bookmyshow.com/payment",1,c24
+r223,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c24
+r224,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c24
 r225,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c24
 r226,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c24
 r227,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c24
@@ -118,8 +109,8 @@ r228,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r229,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600047573330;","https://in.bookmyshow.com/payment",1,c24
 r230,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c24
 r427,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c23
-r214,0,"Mobile","+916611822896","https://in.bookmyshow.com/payment",1,c23
-r215,0,"Email","rel8104682617@gmail.com","https://in.bookmyshow.com/payment",1,c23
+r214,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c23
+r215,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c23
 r216,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c23
 r217,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c23
 r218,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c23
@@ -127,8 +118,8 @@ r219,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r220,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018470045;","https://in.bookmyshow.com/payment",1,c23
 r221,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c23
 r428,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c22
-r205,0,"Mobile","+916308044622","https://in.bookmyshow.com/payment",1,c22
-r206,0,"Email","rel7877033823@gmail.com","https://in.bookmyshow.com/payment",1,c22
+r205,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c22
+r206,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c22
 r207,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c22
 r208,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c22
 r209,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c22
@@ -136,8 +127,8 @@ r210,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r211,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600067320406;","https://in.bookmyshow.com/payment",1,c22
 r212,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c22
 r429,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c28
-r259,0,"Mobile","+916887452488","https://in.bookmyshow.com/payment",1,c28
-r260,0,"Email","rel7610052768@gmail.com","https://in.bookmyshow.com/payment",1,c28
+r259,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c28
+r260,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c28
 r261,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c28
 r262,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c28
 r263,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c28
@@ -145,8 +136,8 @@ r264,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r265,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600095469654;","https://in.bookmyshow.com/payment",1,c28
 r266,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c28
 r430,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c27
-r250,0,"Mobile","+916740893094","https://in.bookmyshow.com/payment",1,c27
-r251,0,"Email","rajaraju4@gmail.com","https://in.bookmyshow.com/payment",1,c27
+r250,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c27
+r251,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c27
 r252,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c27
 r253,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c27
 r254,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c27
@@ -154,8 +145,8 @@ r255,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r256,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018642304;","https://in.bookmyshow.com/payment",1,c27
 r257,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c27
 r431,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c105
-r432,0,"Mobile","+916740893094","https://in.bookmyshow.com/payment",1,c105
-r433,0,"Email","rajaraju3@gmail.com","https://in.bookmyshow.com/payment",1,c105
+r432,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c105
+r433,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c105
 r434,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c105
 r435,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c105
 r436,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c105
@@ -171,42 +162,33 @@ r445,0,"^ReCardNum3$","73009","",1,c106
 r446,0,"^additional_info8$","8373941504","",1,c106
 r447,0,"^additional_info2$","yuvesh.goyal@gmail.com","",1,c106
 r448,0,"^txn_amount$","49000","",1,c106
-r309,0,"Mobile","+919887452488","https://in.bookmyshow.com/payment",1,c35
-r310,0,"Email","rajaraju2@gmail.com","https://in.bookmyshow.com/payment",1,c35
+r309,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c35
+r310,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c35
 r311,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c35
 r312,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c35
 r313,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c35
 r53,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","in.bookmyshow.com/payment/",1,c35
 r315,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600078055611;","https://in.bookmyshow.com/payment",1,c35
 r316,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c35
-r301,0,"Mobile","+919887452488","https://in.bookmyshow.com/payment",1,c34
-r302,0,"Email","rajaraju1@gmail.com","https://in.bookmyshow.com/payment",1,c34
+r301,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c34
+r302,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c34
 r303,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c34
 r304,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c34
 r305,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c34
 r306,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c34
 r307,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600095469654;","https://in.bookmyshow.com/payment",1,c34
 r308,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c34
-r277,0,"Mobile","+917611822896","https://in.bookmyshow.com/payment",1,c31
-r278,0,"Email","redfightclubproton.me@proton.me","https://in.bookmyshow.com/payment",1,c31
+r277,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c31
+r278,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c31
 r279,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c31
 r280,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c31
 r281,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c31
 r282,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c31
 r283,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018470045;","https://in.bookmyshow.com/payment",1,c31
 r284,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c31
-r419,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c10
-r97,0,"Mobile","+916740893094","https://in.bookmyshow.com/payment",1,c10
-r98,0,"Email","grootthehelp@proton.me","https://in.bookmyshow.com/payment",1,c10
-r99,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c10
-r100,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c10
-r101,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c10
-r102,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBOGODB""]')?.click();","https://in.bookmyshow.com/payment",1,c10
-r103,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430003626008;","https://in.bookmyshow.com/payment",1,c10
-r104,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c10
 r418,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c80
-r407,0,"Mobile","+916887452489","https://in.bookmyshow.com/payment",1,c80
-r408,0,"Email","standbymered@proton.me","https://in.bookmyshow.com/payment",1,c80
+r407,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c80
+r408,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c80
 r409,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c80
 r410,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c80
 r411,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c80
@@ -214,8 +196,8 @@ r412,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBO
 r413,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430009772236;","https://in.bookmyshow.com/payment",1,c80
 r414,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c80
 r417,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c9
-r88,0,"Mobile","+918887452488","https://in.bookmyshow.com/payment",1,c9
-r89,0,"Email","lockgonegirl@proton.me","https://in.bookmyshow.com/payment",1,c9
+r88,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c9
+r89,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c9
 r90,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c9
 r91,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c9
 r92,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c9
@@ -226,7 +208,7 @@ r451,4,"","javascript:{@mobilernd}='56465457657'","",1,c9
 r415,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c1
 r1,0,"Email","rel7610052768@gmail.com
 ","https://in.bookmyshow.com/payment",1,c1
-r25,0,"Mobile","+916414002297","https://in.bookmyshow.com/payment",1,c1
+r25,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c1
 r54,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c1
 r57,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c1
 r56,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c1
@@ -245,11 +227,29 @@ r344,4,"","setTimeout(() => {document.querySelector('div#offSuccess_disc-codes p
 r449,4,"","setTimeout(() => {document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__caption')?.click();}, 2000);","",1,c45
 r345,4,"","setTimeout(() => {document.querySelector('div.pm-list li#dTGftVchr')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r452,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
+r423,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
+r115,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c12
+r116,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c12
+r117,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c12
+r118,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
+r119,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c12
+r120,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBOGODB""]')?.click();","https://in.bookmyshow.com/payment",1,c12
+r121,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430006107121;","https://in.bookmyshow.com/payment",1,c12
+r122,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c12
+r419,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c10
+r97,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c10
+r98,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c10
+r99,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c10
+r100,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c10
+r101,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c10
+r102,4,"","document.querySelector('label[for*=""VBOGO0224""],label[for*=""CITIBOGODB""]')?.click();","https://in.bookmyshow.com/payment",1,c10
+r103,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430003626008;","https://in.bookmyshow.com/payment",1,c10
+r104,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c10
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
 textclips,"[]",,,,,
-variables,"[""emailList = {rajaraju1@gmail.com,rajaraju2@gmail.com,rajaraju3@gmail.com,rajaraju4@gmail.com,rel7610052768@gmail.com,rel7877033823@gmail.com,rel8104682617@gmail.com,rel8440829139@gmail.com,yuvppp2@gmail.com,habibji1988@gmail.com,rgpay1@gmail.com,yuvppl1@gmail.com,yuvppl2@gmail.com,yuvppl3@gmail.com,yuvgoal@proton.me,fishmillet@proton.me,fishingcamel@proton.me,standbymered@proton.me,downfallbane@proton.me,grootthehelp@proton.me,lockgonegirl@proton.me,gladiatorneo@proton.me,banescarface@proton.me,redfightclubproton.me@proton.me,redfightclub@proton.me}"",""mobileList = {9460015968,9460018576,9460019138,9460045835,9460056811,9460102269,9460123032,9460123318,9460123431,9460123889,9460166072,9460177615,9460179128,9460180106,9460188501,9460205201,9460209190,9460227420,9460234224,9460240339,9460241696,9460243209,9460266711,9460271057,9460272416,9460280736,9460281403,6740893094,6014731995,6104159779,6209347745,6209357894,6306882745,6308044622,6314131623,6319362120,6373941504,6376713989,6413821352,6413827178,6414002296,6414002297,6462318426,6597415530,6611822896,6739836412,6887452488,6887452489,6982231285}"",""emailRandom1 = javascript:'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'[Math.floor(Math.random()*26)] + Math.random().toString(36).substring(2,Math.floor(Math.random()*(11))+10)+ '@domain.com';"",""emailRandom2 = {$11}@domain.com"",""mobileListRand1 = javascript:(Math.floor(Math.random()*(4))+6).toString()+ Math.random().toString().slice(2,11)"",""mobileListRand2 = 6{#9}"",""mobile01 = 9460015968"",""mobile02 = 9460018576"",""mobile03 = 9460019138"",""mobile04 = 9460045835"",""mobile05 = 9460056811"",""mobile06 = 9460102269"",""mobile07 = 9460123032"",""mobile08 = 9460123318"",""mobile09 = 9460123431"",""mobile10 = 9460123889"",""mobile11 = 9460166072"",""mobile12 = 9460177615"",""mobile13 = 9460179128"",""mobile14 = 9460180106"",""mobile15 = 9460188501"",""mobile16 = 9460205201"",""mobile17 = 9460209190"",""mobile18 = 9460227420"",""mobile19 = 9460234224"",""mobile20 = 9460240339"",""mobile21 = 9460241696"",""mobile22 = 9460243209"",""mobile23 = 9460266711"",""mobile24 = 9460271057"",""mobile25 = 9460272416"",""mobile26 = 9460280736"",""mobile27 = 9460281403""]",,,,,
+variables,"[""emailList = {rajaraju1@gmail.com,rajaraju2@gmail.com,rajaraju3@gmail.com,rajaraju4@gmail.com,rel7610052768@gmail.com,rel7877033823@gmail.com,rel8104682617@gmail.com,rel8440829139@gmail.com,yuvppp2@gmail.com,habibji1988@gmail.com,rgpay1@gmail.com,yuvppl1@gmail.com,yuvppl2@gmail.com,yuvppl3@gmail.com,yuvgoal@proton.me,fishmillet@proton.me,fishingcamel@proton.me,standbymered@proton.me,downfallbane@proton.me,grootthehelp@proton.me,lockgonegirl@proton.me,gladiatorneo@proton.me,banescarface@proton.me,redfightclubproton.me@proton.me,redfightclub@proton.me}"",""mobileList = {9460015968,9460018576,9460019138,9460045835,9460056811,9460102269,9460123032,9460123318,9460123431,9460123889,9460166072,9460177615,9460179128,9460180106,9460188501,9460205201,9460209190,9460227420,9460234224,9460240339,9460241696,9460243209,9460266711,9460271057,9460272416,9460280736,9460281403,6740893094,6014731995,6104159779,6209347745,6209357894,6306882745,6308044622,6314131623,6319362120,6373941504,6376713989,6413821352,6413827178,6414002296,6414002297,6462318426,6597415530,6611822896,6739836412,6887452488,6887452489,6982231285}"",""emailRandom1 = javascript:'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'[Math.floor(Math.random()*26)] + Math.random().toString(36).substring(2,Math.floor(Math.random()*(11))+10)+ '@domain.com';"",""emailRandom2 = {$15}@domain.com"",""mobileListRand1 = javascript:(Math.floor(Math.random()*(4))+6).toString()+ Math.random().toString().slice(2,11)"",""mobileListRand2 = 6{#9}""]",,,,,
 activecat,0,,,,,
 attributesoff,0,,,,,
 autoimport,1,https://raw.githubusercontent.com/yuvilnmiit/gladiatorallabouteve/main/AutoFillBms.txt,,,,
