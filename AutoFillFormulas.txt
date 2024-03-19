@@ -1,0 +1,36 @@
+URL -https://1drv.ms/t/s!Alw4R_5A7en-pSZERhZ7_ha5eiJA?e=v7dLih
+
+document.querySelector('input#txtEmail').value='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789'[Math.floor(Math.random()*26)] + Math.random().toString(36).substring(2,Math.floor(Math.random()*(11))+10)+ '@domain.com';
+
+Math.floor(Math.random() * (max - min + 1)) + min
+document.querySelector('input#txtMobile').value="+91"+(Math.floor(Math.random()*(4))+6).toString()+ Math.random().toString().slice(2,11);
+
+document.querySelector('input#txtMobile').value="+91"+ {@mobile01} //(Math.floor(Math.random()*(4))+6).toString()+ Math.random().toString().slice(2,11);
+
+mobile1=9460015968
+mobile2=9460018576
+mobile3=9460019138
+mobile4=9460045835
+mobile5=9460056811
+mobile6=9460102269
+mobile7=9460123032
+mobile8=9460123318
+mobile9=9460123431
+mobile10=9460123889
+mobile11=9460166072
+mobile12=9460177615
+mobile13=9460179128
+mobile14=9460180106
+mobile15=9460188501
+mobile16=9460205201
+mobile17=9460209190
+mobile18=9460227420
+mobile19=9460234224
+mobile20=9460240339
+mobile21=9460241696
+mobile22=9460243209
+mobile23=9460266711
+mobile24=9460271057
+mobile25=9460272416
+mobile26=9460280736
+mobile27=9460281403
