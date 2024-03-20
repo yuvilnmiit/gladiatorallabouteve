@@ -27,134 +27,30 @@ c36,"RetryclickOffer","","Alt + X",,,
 c37,"PageRefresh","","Alt + C",,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
-r293,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c33
-r294,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c33
-r295,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c33
-r296,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c33
-r297,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c33
-r298,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c33
-r299,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600047573330;","https://in.bookmyshow.com/payment",1,c33
-r300,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c33
-r285,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c32
-r286,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c32
-r287,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c32
-r288,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c32
-r289,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c32
-r290,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c32
-r291,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018642304;","https://in.bookmyshow.com/payment",1,c32
-r292,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c32
-r269,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c30
-r270,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c30
-r271,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c30
-r272,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c30
-r273,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c30
-r274,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c30
-r275,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600067320406;","https://in.bookmyshow.com/payment",1,c30
-r276,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c30
-r420,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c79
-r399,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c79
-r400,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c79
-r401,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c79
-r402,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c79
-r403,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c79
-r404,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c79
-r405,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430006358914;","https://in.bookmyshow.com/payment",1,c79
-r406,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c79
-r421,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c11
-r106,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c11
-r107,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c11
-r108,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c11
-r109,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c11
-r110,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c11
-r111,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c11
-r112,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430003242533;","https://in.bookmyshow.com/payment",1,c11
-r113,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c11
-r425,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c25
-r232,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c25
-r233,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c25
-r234,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c25
-r235,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c25
-r236,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c25
-r237,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c25
-r238,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600078055611;","https://in.bookmyshow.com/payment",1,c25
-r239,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c25
-r426,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c24
-r223,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c24
-r224,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c24
-r225,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c24
-r226,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c24
-r227,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c24
-r228,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c24
-r229,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600047573330;","https://in.bookmyshow.com/payment",1,c24
-r230,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c24
-r427,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c23
-r214,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c23
-r215,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c23
-r216,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c23
-r217,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c23
-r218,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c23
-r219,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c23
-r220,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018470045;","https://in.bookmyshow.com/payment",1,c23
-r221,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c23
-r429,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c28
-r259,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c28
-r260,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c28
-r261,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c28
-r262,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c28
-r263,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c28
-r264,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c28
-r265,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600095469654;","https://in.bookmyshow.com/payment",1,c28
-r266,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c28
-r430,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c27
-r250,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c27
-r251,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c27
-r252,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c27
-r253,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c27
-r254,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c27
-r255,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c27
-r256,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018642304;","https://in.bookmyshow.com/payment",1,c27
-r257,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c27
-r431,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c105
-r432,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c105
-r433,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c105
-r434,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c105
-r435,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c105
-r436,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c105
-r437,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c105
-r438,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430008293341;","https://in.bookmyshow.com/payment",1,c105
-r439,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c105
-r309,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c35
-r310,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c35
-r311,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c35
-r312,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c35
-r313,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c35
-r53,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","in.bookmyshow.com/payment/",1,c35
-r315,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600078055611;","https://in.bookmyshow.com/payment",1,c35
-r316,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c35
-r301,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c34
-r302,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c34
-r303,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c34
-r304,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c34
-r305,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c34
-r306,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c34
-r307,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600095469654;","https://in.bookmyshow.com/payment",1,c34
-r308,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c34
-r277,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c31
-r278,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c31
-r279,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c31
-r280,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c31
-r281,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c31
-r282,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c31
-r283,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018470045;","https://in.bookmyshow.com/payment",1,c31
-r284,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c31
+r318,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c36
+r319,4,"","document.location.reload();","https://in.bookmyshow.com/payment",1,c37
+r415,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c1
+r25,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c1
+r1,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c1
+r54,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c1
+r57,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c1
+r56,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c1
+r47,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c1
+r84,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4639170003635440;","https://in.bookmyshow.com/payment",1,c1
+r87,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c1
+r459,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c1
+r417,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c9
+r88,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c9
+r89,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c9
+r90,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c9
+r91,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c9
+r92,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c9
+r93,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c9
+r94,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430000532688;","https://in.bookmyshow.com/payment",1,c9
+r95,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c9
+r460,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c9
 r418,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c80
 r407,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c80
 r408,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c80
@@ -165,38 +61,18 @@ r412,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""non
 document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c80
 r413,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430009772236;","https://in.bookmyshow.com/payment",1,c80
 r414,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c80
-r423,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
-r115,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c12
-r116,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c12
-r117,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c12
-r118,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
-r119,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c12
-r120,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c12
-r121,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430006107121;","https://in.bookmyshow.com/payment",1,c12
-r122,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c12
-r318,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c36
-r319,4,"","document.location.reload();","https://in.bookmyshow.com/payment",1,c37
-r424,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c26
-r268,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c26
-r242,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c26
-r243,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c26
-r244,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c26
-r245,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c26
-r246,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c26
-r247,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4147524954501925;","https://in.bookmyshow.com/payment",1,c26
-r248,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c26
-r422,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c78
-r391,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c78
-r392,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c78
-r393,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c78
-r394,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c78
-r395,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c78
-r396,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c78
-r397,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430004058789;","https://in.bookmyshow.com/payment",1,c78
-r398,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c78
+r461,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c80
+r420,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c79
+r399,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c79
+r400,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c79
+r401,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c79
+r402,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c79
+r403,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c79
+r404,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c79
+r405,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430006358914;","https://in.bookmyshow.com/payment",1,c79
+r406,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c79
+r464,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c79
 r419,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c10
 r97,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c10
 r98,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c10
@@ -207,6 +83,182 @@ r102,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""non
 document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c10
 r103,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430003626008;","https://in.bookmyshow.com/payment",1,c10
 r104,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c10
+r462,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c10
+r431,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c105
+r432,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c105
+r433,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c105
+r434,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c105
+r435,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c105
+r436,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c105
+r437,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c105
+r438,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430008293341;","https://in.bookmyshow.com/payment",1,c105
+r439,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c105
+r465,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c105
+r421,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c11
+r106,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c11
+r107,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c11
+r108,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c11
+r109,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c11
+r110,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c11
+r111,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c11
+r112,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430003242533;","https://in.bookmyshow.com/payment",1,c11
+r113,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c11
+r466,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c11
+r422,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c78
+r391,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c78
+r392,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c78
+r393,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c78
+r394,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c78
+r395,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c78
+r396,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c78
+r397,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430004058789;","https://in.bookmyshow.com/payment",1,c78
+r398,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c78
+r467,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c78
+r423,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
+r115,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c12
+r116,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c12
+r117,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c12
+r118,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c12
+r119,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c12
+r120,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c12
+r121,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430006107121;","https://in.bookmyshow.com/payment",1,c12
+r122,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c12
+r468,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c12
+r424,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c26
+r268,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c26
+r242,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c26
+r243,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c26
+r244,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c26
+r245,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c26
+r246,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c26
+r247,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4147524954501925;","https://in.bookmyshow.com/payment",1,c26
+r248,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c26
+r469,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c26
+r425,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c25
+r232,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c25
+r233,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c25
+r234,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c25
+r235,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c25
+r236,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c25
+r237,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c25
+r238,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600078055611;","https://in.bookmyshow.com/payment",1,c25
+r239,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c25
+r470,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c25
+r426,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c24
+r223,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c24
+r224,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c24
+r225,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c24
+r226,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c24
+r227,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c24
+r228,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c24
+r229,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600047573330;","https://in.bookmyshow.com/payment",1,c24
+r230,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c24
+r471,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c24
+r427,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c23
+r214,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c23
+r215,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c23
+r216,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c23
+r217,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c23
+r218,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c23
+r219,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c23
+r220,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018470045;","https://in.bookmyshow.com/payment",1,c23
+r221,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c23
+r472,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c23
+r428,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c22
+r205,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c22
+r206,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c22
+r207,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c22
+r208,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c22
+r209,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c22
+r210,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c22
+r211,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600067320406;","https://in.bookmyshow.com/payment",1,c22
+r212,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c22
+r473,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c22
+r429,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c28
+r259,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c28
+r260,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c28
+r261,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c28
+r262,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c28
+r263,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c28
+r264,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c28
+r265,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600095469654;","https://in.bookmyshow.com/payment",1,c28
+r266,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c28
+r474,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c28
+r430,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c27
+r250,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c27
+r251,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c27
+r252,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c27
+r253,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c27
+r254,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c27
+r255,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c27
+r256,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018642304;","https://in.bookmyshow.com/payment",1,c27
+r257,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c27
+r475,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c27
+r309,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c35
+r310,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c35
+r311,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c35
+r312,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c35
+r313,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c35
+r53,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","in.bookmyshow.com/payment/",1,c35
+r315,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600078055611;","https://in.bookmyshow.com/payment",1,c35
+r316,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c35
+r476,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c35
+r293,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c33
+r294,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c33
+r295,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c33
+r296,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c33
+r297,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c33
+r298,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c33
+r299,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600047573330;","https://in.bookmyshow.com/payment",1,c33
+r300,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c33
+r477,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c33
+r277,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c31
+r278,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c31
+r279,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c31
+r280,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c31
+r281,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c31
+r282,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c31
+r283,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018470045;","https://in.bookmyshow.com/payment",1,c31
+r284,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c31
+r478,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c31
+r269,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c30
+r270,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c30
+r271,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c30
+r272,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c30
+r273,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c30
+r274,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c30
+r275,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600067320406;","https://in.bookmyshow.com/payment",1,c30
+r276,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c30
+r479,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c30
+r301,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c34
+r302,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c34
+r303,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c34
+r304,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c34
+r305,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c34
+r306,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c34
+r307,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600095469654;","https://in.bookmyshow.com/payment",1,c34
+r308,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c34
+r480,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c34
+r285,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c32
+r286,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c32
+r287,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c32
+r288,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c32
+r289,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c32
+r290,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/payment",1,c32
+r291,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018642304;","https://in.bookmyshow.com/payment",1,c32
+r292,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c32
+r481,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c32
 r458,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r457,0,"Email","{@emailList}","https://in.bookmyshow.com/payment",1,c45
 r456,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c45
@@ -219,36 +271,7 @@ r344,4,"","setTimeout(() => {document.querySelector('div#offSuccess_disc-codes p
 r449,4,"","setTimeout(() => {document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__caption')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r345,4,"","setTimeout(() => {document.querySelector('div.pm-list li#dTGftVchr')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
 r452,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c45
-r417,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c9
-r88,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c9
-r89,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c9
-r90,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c9
-r91,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c9
-r92,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c9
-r93,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c9
-r94,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4689430000532688;","https://in.bookmyshow.com/payment",1,c9
-r95,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c9
-r415,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c1
-r25,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c1
-r1,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c1
-r54,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c1
-r57,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c1
-r56,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c1
-r47,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c1
-r84,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4639170003635440;","https://in.bookmyshow.com/payment",1,c1
-r87,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c1
-r428,4,"","setTimeout(() => {document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c22
-r205,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c22
-r206,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c22
-r207,4,"","document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c22
-r208,4,"","setTimeout(() => {document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click();}, 2000);","https://in.bookmyshow.com/payment",1,c22
-r209,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c22
-r210,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
-document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c22
-r211,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600067320406;","https://in.bookmyshow.com/payment",1,c22
-r212,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c22
+r482,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c45
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[]",,,,,
 exceptions,"[]",,,,,
