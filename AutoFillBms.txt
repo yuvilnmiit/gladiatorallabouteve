@@ -1,6 +1,6 @@
 ### AUTOFILL PROFILES ###,,,,,,
 Profile ID,Name,Site,Hotkey,,,
-c124,"PreFinalOfferScreen","in.bookmyshow.com/buytickets","Alt + '",,,
+c124,"PreFinalOfferScreen","","",,,
 c45,"GADAR","","Alt + Z",,,
 c1,"7414002296[HDFC Regalia VISA Offer]","","Alt + 1",,,
 c9,"9887452488 [BOB Yuvesh Visa offer]","","Alt + 2",,,
@@ -260,14 +260,6 @@ document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","
 r84,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4639170003635440;","https://in.bookmyshow.com/payment",1,c1
 r87,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c1
 r459,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c1
-r483,4,"","var timer = setInterval(function() {
-let removeBookASmileButton=document.evaluate(""//*[@id='basCheckbox' and @class='__bas-cta' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-if(!(removeBookASmileButton.offsetParent === null)){removeBookASmileButton.click();}
-clearInterval(timer);}, 1000);","",1,c124
-r488,4,"","var timer2 = setInterval(function() {
-let proceedButton = document.querySelector('div.btn-bar.fnb-proceed-btn div.bar-btn._primary');
-if(!(proceedButton .offsetParent === null)){proceedButton.click();}
-clearInterval(timer2);}, 1500);","",1,c124
 r490,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c45
 r458,4,"","//document.querySelector('div#dStepUserDetails._contact-details._finished').click();","https://in.bookmyshow.com/payment",1,c45
 r457,0,"Email","{@emailList}","https://in.bookmyshow.com/payment",1,c45
@@ -288,6 +280,14 @@ clearInterval(timer);}, 4000);","https://in.bookmyshow.com/payment",1,c45
 r449,4,"","//document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__caption')?.click();","https://in.bookmyshow.com/payment",1,c45
 r345,4,"","//document.querySelector('div.pm-list li#dTGftVchr')?.click();","https://in.bookmyshow.com/payment",1,c45
 r482,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c45
+r483,4,"","var timer = setInterval(function() {
+let removeBookASmileButton=document.evaluate(""//*[@id='basCheckbox' and @class='__bas-cta' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+if(!(removeBookASmileButton.offsetParent === null)){removeBookASmileButton.click();}
+clearInterval(timer);}, 1000);","in.bookmyshow.com/buytickets",1,c124
+r488,4,"","var timer2 = setInterval(function() {
+let proceedButton = document.querySelector('div.btn-bar.fnb-proceed-btn div.bar-btn._primary');
+if(!(proceedButton .offsetParent === null)){proceedButton.click();}
+clearInterval(timer2);}, 1500);","in.bookmyshow.com/buytickets",1,c124
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[""c124: delay=0.5 forcefill=true""]",,,,,
 exceptions,"[]",,,,,
