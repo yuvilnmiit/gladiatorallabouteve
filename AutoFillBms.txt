@@ -283,11 +283,11 @@ r482,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']""
 r483,4,"","var timer = setInterval(function() {
 let removeBookASmileButton=document.evaluate(""//*[@id='basCheckbox' and @class='__bas-cta' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
 if(!(removeBookASmileButton.offsetParent === null)){removeBookASmileButton.click();}
-clearInterval(timer);}, 1000);","https://in.bookmyshow.com/buytickets",1,c124
+clearInterval(timer);}, 750);","https://in.bookmyshow.com/buytickets",1,c124
 r488,4,"","var timer2 = setInterval(function() {
 let proceedButton = document.querySelector('div.btn-bar.fnb-proceed-btn div.bar-btn._primary');
 if(!(proceedButton .offsetParent === null)){proceedButton.click();}
-clearInterval(timer2);}, 1500);","https://in.bookmyshow.com/buytickets",1,c124
+clearInterval(timer2);}, 1000);","https://in.bookmyshow.com/buytickets",1,c124
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[""r483: delay=0.5 forcefill=true"",""r488: delay=0.5 forcefill=true"",""c45: delay=4 forcefill=true""]",,,,,
 exceptions,"[]",,,,,
