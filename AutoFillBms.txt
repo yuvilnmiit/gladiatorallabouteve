@@ -270,7 +270,7 @@ if(!(proceedButton .offsetParent === null)){proceedButton.click();}
 clearInterval(timer2);}, 500);","https://in.bookmyshow.com/buytickets",1,c124
 r490,4,"","//document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c45
 r458,4,"","//document.querySelector('div#dStepUserDetails._contact-details._finished').click();","https://in.bookmyshow.com/payment",1,c45
-r457,0,"Email","{@emailRandom2}","https://in.bookmyshow.com/payment",1,c45
+r457,0,"Email","{@emailList}","https://in.bookmyshow.com/payment",1,c45
 r456,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c45
 r455,4,"","//document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c45
 r454,4,"","document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle').click();","https://in.bookmyshow.com/payment",1,c45
