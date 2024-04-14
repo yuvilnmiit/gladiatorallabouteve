@@ -1,6 +1,6 @@
 ### AUTOFILL PROFILES ###,,,,,,
 Profile ID,Name,Site,Hotkey,,,
-c150,"amazonvoucherpage","amazon.in/.*dp/B01ARPKYD0","",,,
+c150,"amazonvoucherpage","amazon.in/BookMyShow-4_model-Digital-Voucher/dp/B01ARPKYD0/ref=sr_1_1","",,,
 c124,"PreFinalOfferScreen","","",,,
 c45,"GADAR","","Alt + Z",,,
 c1,"7414002296[HDFC Regalia VISA Offer]","","Alt + 1",,,
