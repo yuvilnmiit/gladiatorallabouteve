@@ -260,9 +260,6 @@ r488,4,"","var timer2 = setInterval(function() {
 let proceedButton = document.querySelector('div.btn-bar.fnb-proceed-btn div.bar-btn._primary');
 if(!(proceedButton .offsetParent === null)){proceedButton.click();}
 clearInterval(timer2);}, 500);","https://in.bookmyshow.com/buytickets",1,c124
-r491,0,"gc-order-form-custom-amount","5000","",1,c150
-r492,0,"^emails$","manojji1989@gmail.com","",1,c150
-r493,0,"gc-order-form-quantity","5","",1,c150
 r277,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c31
 r278,0,"Email","{@emailList}","https://in.bookmyshow.com/payment",1,c31
 r279,4,"","//document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c31
@@ -286,6 +283,9 @@ document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__captio
 document.querySelector('div.pm-list li#dTGftVchr').click()
 }
 clearInterval(timer);}, 1500);","",1,c45
+r491,0,"gc-order-form-custom-amount","7500","",1,c150
+r492,0,"^emails$","manojji1989@gmail.com","",1,c150
+r493,0,"gc-order-form-quantity","5","",1,c150
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[""r483: delay=0.5 forcefill=true"",""r488: delay=0.5 forcefill=true"",""c150: delay=1.5 forcefill=true""]",,,,,
 exceptions,"[]",,,,,
