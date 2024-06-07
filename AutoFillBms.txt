@@ -269,7 +269,7 @@ r282,2,"^chkGroup_cc-dc-nb_others$","""AUDC0224""","https://in.bookmyshow.com/pa
 r283,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4290600018470045;","https://in.bookmyshow.com/payment",1,c31
 r284,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c31
 r478,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c31
-r457,0,"Email","{@emailList}","",1,c45
+r457,0,"Email","{@emailList2}","",1,c45
 r456,0,"Mobile","+91{@mobileList}","",1,c45
 r454,4,"","document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle').click();","",1,c45
 r323,4,"","document.querySelector('ul li#offTab_disc-codes').click();","",1,c45
