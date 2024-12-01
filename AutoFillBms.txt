@@ -27,6 +27,8 @@ c34,"9887452488 [Au Royale Manoj offer]","","Alt + M",,,
 c32,"7740893094 [Au Royale Vikas offer]","","Alt + V",,,
 c36,"RetryclickOffer","","Alt + X",,,
 c37,"PageRefresh","","Alt + C",,,
+c177,"9887452488 [Manoj ACE Visa Offer]","","Alt + [",,,
+c178,"9887452488 [Niyo Visa Offer]","","Alt + ]",,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
 r318,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c36
@@ -286,6 +288,28 @@ clearInterval(timer);}, 1500);","",1,c45
 r491,0,"gc-order-form-custom-amount","{@t200}","",1,c150
 r492,0,"^emails$","manojji1989@gmail.com","",1,c150
 r493,0,"gc-order-form-quantity","5","",1,c150
+r504,4,"","//document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();","https://in.bookmyshow.com/payment",1,c178
+r505,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c178
+r506,0,"Email","{@emailList2}","https://in.bookmyshow.com/payment",1,c178
+r507,4,"","//document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c178
+r508,4,"","document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click()","https://in.bookmyshow.com/payment",1,c178
+r509,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c178
+r510,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c178
+r511,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4645160105080597;","https://in.bookmyshow.com/payment",1,c178
+r512,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c178
+r513,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c178
+r494,4,"","//document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();","https://in.bookmyshow.com/payment",1,c177
+r495,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c177
+r496,0,"Email","{@emailList2}","https://in.bookmyshow.com/payment",1,c177
+r497,4,"","//document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c177
+r498,4,"","document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click()","https://in.bookmyshow.com/payment",1,c177
+r499,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c177
+r500,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c177
+r501,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4700110108578834;","https://in.bookmyshow.com/payment",1,c177
+r502,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c177
+r503,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c177
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[""r483: delay=0.5 forcefill=true"",""r488: delay=0.5 forcefill=true"",""c150: delay=1.5 forcefill=true"",""c45: delay=1.5 forcefill=true/""]",,,,,
 exceptions,"[]",,,,,
