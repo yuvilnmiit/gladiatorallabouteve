@@ -29,6 +29,7 @@ c36,"RetryclickOffer","","Alt + X",,,
 c37,"PageRefresh","","Alt + C",,,
 c177,"9887452488 [Manoj ACE Visa Offer]","","Alt + [",,,
 c178,"9887452488 [Niyo Visa Offer]","","Alt + ]",,,
+c179,"9887452488 [Samsung Visa Offer]","","Alt + H",,,
 ### AUTOFILL RULES ###,,,,,,
 Rule ID,Type,Name,Value,Site,Mode,Profile
 r318,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c36
@@ -310,6 +311,17 @@ document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","
 r501,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4700110108578834;","https://in.bookmyshow.com/payment",1,c177
 r502,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c177
 r503,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c177
+r514,4,"","//document.querySelector('div#dStepUserDetails._contact-details._finished')?.click();","https://in.bookmyshow.com/payment",1,c179
+r515,0,"Mobile","+91{@mobileList}","https://in.bookmyshow.com/payment",1,c179
+r516,0,"Email","{@emailList2}","https://in.bookmyshow.com/payment",1,c179
+r517,4,"","//document.querySelector('div#dContinueContactSec a')?.click();","https://in.bookmyshow.com/payment",1,c179
+r518,4,"","document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle')?.click()","https://in.bookmyshow.com/payment",1,c179
+r519,4,"","document.querySelector('#offTab_cc-dc-nb')?.click(); sleep(500);","https://in.bookmyshow.com/payment",1,c179
+r520,4,"","document.querySelector('h2.__heading[data-offer-id]:not([style*=""none""]) a')?.click();
+document.querySelector('label[for*=""{@VisaSignatureOfferCode}""]')?.click();","https://in.bookmyshow.com/payment",1,c179
+r521,4,"","document.querySelector('input#offCode_cc-dc-nb').value=4076510001321438;","https://in.bookmyshow.com/payment",1,c179
+r522,4,"","document.querySelector('#offApplyBtn_cc-dc-nb')?.click();","https://in.bookmyshow.com/payment",1,c179
+r523,4,"","document.evaluate(""//*[@id='chkAddBookASmile' and text()='Remove']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.click();","https://in.bookmyshow.com/payment",1,c179
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[""r483: delay=0.5 forcefill=true"",""r488: delay=0.5 forcefill=true"",""c150: delay=1.5 forcefill=true"",""c45: delay=1.5 forcefill=true/""]",,,,,
 exceptions,"[]",,,,,
