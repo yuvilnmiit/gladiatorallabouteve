@@ -4,7 +4,7 @@ c1,"amazonvoucherpage","amazon.in/BookMyShow-4_model-Digital-Voucher/dp/B01ARPKY
 c2,"PreFinalOfferScreen","","",,,
 c3,"GADAR","https://in.bookmyshow.com/payment","Alt + Z",,,
 c4,"7414002296[HDFC Regalia VISA Offer]","","Alt + 1",,,
-c5,"7414002296[FEDERAL Offer]","","Alt + B",,,
+c5,"7414002296[FEDERAL Offer]","","",,,
 c6,"9887452488 [BOB Yuvesh Visa offer]","","Alt + 2",,,
 c7,"7740893094 [BOB Vikas Visa offer]","","Alt + 3",,,
 c8,"7611822896 [BOB Manoj Visa offer]","","Alt + 4",,,
