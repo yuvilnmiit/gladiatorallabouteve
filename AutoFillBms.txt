@@ -357,8 +357,16 @@ r36,0,"txtCardName","{@txtCardName}","https://in.bookmyshow.com/payment",1,c5
 r37,0,"txtExpMonth","12","https://in.bookmyshow.com/payment",1,c5
 r38,0,"txtExpYear","29","https://in.bookmyshow.com/payment",1,c5
 r39,1,"txtCVV","","https://in.bookmyshow.com/payment",1,c5
+r5,4,"","var timer2 = setInterval(function() {
+let removeBookASmileButton=document.evaluate(""//*[text()='Proceed']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
+if(!(removeBookASmileButton.offsetParent === null)){removeBookASmileButton.click();}
+clearInterval(timer2);}, 250);","https://in.bookmyshow.com/",1,c2
 r8,0,"Email","{@emailjs}","",1,c3
 r9,0,"Mobile","+91{@mobileList}","",1,c3
+r330,4,"","const event = document.createEvent('KeyboardEvent');
+event.initKeyboardEvent('keydown', true, true, window, 'Enter', 0, '', false, '');
+document.activeElement.dispatchEvent(event);
+","",1,c3
 r10,4,"","document.querySelector('div#dStepAvailOffers:not(._active) div#dOffersHeadTitle').click();","",1,c3
 r11,4,"","document.querySelector('ul li#offTab_disc-codes').click();","",1,c3
 r12,4,"","document.querySelector('input#offCode_disc-codes').value='{@BogoOfferCode}';","",1,c3
@@ -371,10 +379,6 @@ document.querySelector('div#dSecPayOpts:not(._active) div.pgds-head div.__captio
 document.querySelector('div.pm-list li#dTGftVchr').click()
 }
 clearInterval(timer);}, 1500);","",1,c3
-r5,4,"","var timer2 = setInterval(function() {
-let removeBookASmileButton=document.evaluate(""//*[text()='Proceed']"", document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-if(!(removeBookASmileButton.offsetParent === null)){removeBookASmileButton.click();}
-clearInterval(timer2);}, 250);","https://in.bookmyshow.com/",1,c2
 ### AUTOFILL OPTIONS ###,,,,,,
 advanced,"[""r5: delay=0.5 forcefill=true"",""r6: delay=1 forcefill=true/"",""r7: delay=0.5 forcefill=true/"",""r8: delay=0.5 forcefill=true/""]",,,,,
 exceptions,"[]",,,,,
@@ -386,14 +390,14 @@ autoimport,1,https://raw.githubusercontent.com/yuvilnmiit/gladiatorallabouteve/r
 backup,0,30,,,,
 badge,0,,,,,
 closeinfobar,1,2,,,,
-debug,1,,,,,
-delay,1,0.5,,,,
-filtercats,1,,,,,
+debug,0,,,,,
+delay,1,2,,,,
+filtercats,0,,,,,
 fluid,1,,,,,
 hidebackup,0,,,,,
 manual,1,,,,,
 mask,1,,,,,
-menu,1,,,,,
+menu,0,,,,,
 overwrite,1,,,,,
 sitefilters,1,,,,,
 skiphidden,0,,,,,
