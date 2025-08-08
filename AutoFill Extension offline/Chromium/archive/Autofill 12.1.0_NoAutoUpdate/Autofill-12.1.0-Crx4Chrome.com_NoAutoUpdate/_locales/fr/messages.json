@@ -1,0 +1,737 @@
+{
+  "generalDescription": {
+    "message": "L'extension de saisie automatique la plus populaire, qui améliore la productivité depuis 2010."
+  },
+  "generalExecute": {
+    "message": "Exécuter profil"
+  },
+  "generalExecuteAll": {
+    "message": "Exécuter tous les profils"
+  },
+  "generalInsert": {
+    "message": "Insérer un texte"
+  },
+  "generalAddRules": {
+    "message": "Ajouter des règles à cette page..."
+  },
+  "generalAddRule": {
+    "message": "Ajouter une règle pour ce champ..."
+  },
+  "generalOptions": {
+    "message": "Options"
+  },
+  "generalHotkey": {
+    "message": "Raccourci Clavier Global"
+  },
+  "generalHotkeys": {
+    "message": "Touches de Raccourci Globales"
+  },
+  "generalHotkeyUnset": {
+    "message": "Non Défini"
+  },
+  "generalHotkeyTT": {
+    "message": "Définir le raccourci clavier global"
+  },
+  "generalHotkeysTT": {
+    "message": "Définir les touches de raccourci globales"
+  },
+  "generalData": {
+    "message": "Données"
+  },
+  "generalDataTT": {
+    "message": "Taille totale de vos données stockées (en bytes)"
+  },
+  "generalVerHistory": {
+    "message": "Historique des Versions"
+  },
+  "generalWhatsNew": {
+    "message": "Quoi de neuf dans la v__VER__"
+  },
+  "generalWhatsNewTT": {
+    "message": "Alors quoi de neuf?"
+  },
+  "generalCollapse": {
+    "message": "Réduire"
+  },
+  "generalExpand": {
+    "message": "Agrandir"
+  },
+  "generalNoFields": {
+    "message": "Aucun champ trouvé"
+  },
+  "generalLoading": {
+    "message": "Chargement..."
+  },
+  "generalCtaSubscribe": {
+    "message": "S'abonner"
+  },
+  "buttonsAddTT": {
+    "message": "Ajouter une nouvelle règle"
+  },
+  "buttonsSearch": {
+    "message": "Rechercher des règles"
+  },
+  "buttonsClearTT": {
+    "message": "Effacer"
+  },
+  "buttonsEdit": {
+    "message": "Modifier"
+  },
+  "buttonsEditTT": {
+    "message": "Modifier la valeur dans l'éditeur de code"
+  },
+  "buttonsSave": {
+    "message": "Sauvegarder"
+  },
+  "buttonsSaveTT": {
+    "message": "Sauvegarder les options"
+  },
+  "buttonsReset": {
+    "message": "Réinitialiser"
+  },
+  "buttonsResetTT": {
+    "message": "Annuler les changements"
+  },
+  "buttonsHelp": {
+    "message": "Aide"
+  },
+  "buttonsHelpTT": {
+    "message": "Obtenir de l'aide pour cet onglet"
+  },
+  "buttonsImport": {
+    "message": "Importer"
+  },
+  "buttonsImportTT": {
+    "message": "Importer des données CSV"
+  },
+  "buttonsExport": {
+    "message": "Exporter"
+  },
+  "buttonsExportTT": {
+    "message": "Exporter des données au format CSV"
+  },
+  "buttonsImportUrl": {
+    "message": "Importer"
+  },
+  "buttonsImportUrlTT": {
+    "message": "Importer des données CSV depuis un fichier distant"
+  },
+  "buttonsCancel": {
+    "message": "Annuler"
+  },
+  "buttonsClose": {
+    "message": "Fermer"
+  },
+  "buttonsDiscardContinue": {
+    "message": "Annuler les changements et continuer"
+  },
+  "buttonsSaveClose": {
+    "message": "Sauvegarder et Fermer"
+  },
+  "buttonsProfileNew": {
+    "message": "Nouveau"
+  },
+  "buttonsProfileRename": {
+    "message": "Renommer"
+  },
+  "buttonsProfileMoveFirst": {
+    "message": "Aller au premier"
+  },
+  "buttonsProfileMoveUp": {
+    "message": "Monter"
+  },
+  "buttonsProfileMoveDown": {
+    "message": "Descendre"
+  },
+  "buttonsProfileMoveLast": {
+    "message": "Aller au dernier"
+  },
+  "buttonsProfileDelete": {
+    "message": "Supprimer"
+  },
+  "buttonsProfileDuplicate": {
+    "message": "Dupliquer"
+  },
+  "buttonsProfilesSort": {
+    "message": "Classer"
+  },
+  "buttonsGenerateRules": {
+    "message": "Générer des règles Autofill"
+  },
+  "buttonsGenerateRulesTT": {
+    "message": "Créer ou mettre à jour des règles exististantes"
+  },
+  "buttonsVerifySubscription": {
+    "message": "Vérifier l'Abonnement"
+  },
+  "buttonsSubscribed": {
+    "message": "✔ Abonné"
+  },
+  "buttonsCustomerPortal": {
+    "message": "Gérer les Abonnements"
+  },
+  "optionsEditValue": {
+    "message": "Modifier la Valeur"
+  },
+  "optionsProfileTT": {
+    "message": "Profil"
+  },
+  "optionsProfilesMenuProfiles": {
+    "message": "&mdash;&mdash;&mdash;&mdash; Profils &mdash;&mdash;&mdash;"
+  },
+  "optionsProfilesMenuAll": {
+    "message": "Tout"
+  },
+  "optionsProfilesMenuUnfiled": {
+    "message": "Non classé"
+  },
+  "optionsProfilesMenuManage": {
+    "message": "Gérer..."
+  },
+  "optionsProfilesMenuNew": {
+    "message": "Nouveau..."
+  },
+  "optionsProfilesMenuActive": {
+    "message": "actif"
+  },
+  "optionsProfilesManageProfiles": {
+    "message": "Gérer vos Profils"
+  },
+  "optionsTabsFields": {
+    "message": "Champs du formulaire"
+  },
+  "optionsTabsFieldsTT": {
+    "message": "Definir les champs pour autofill"
+  },
+  "optionsTabsAdvanced": {
+    "message": "Avancé"
+  },
+  "optionsTabsAdvancedTT": {
+    "message": "Configuration avancée pour les profils et règles"
+  },
+  "optionsTabsExceptions": {
+    "message": "Exceptions"
+  },
+  "optionsTabsExceptionsTT": {
+    "message": "Pages ou sites à exclure d' Autofill"
+  },
+  "optionsTabsImportExport": {
+    "message": "Importer/Exporter"
+  },
+  "optionsTabsImportExportTT": {
+    "message": "Sauvegarder et restaurer vos données"
+  },
+  "optionsTabsNews": {
+    "message": "Nouvelles"
+  },
+  "optionsTabsNewsTT": {
+    "message": "Découvrez les dernières nouvelles sur Autofill"
+  },
+  "optionsTabsOther": {
+    "message": "Autre"
+  },
+  "optionsTabsOtherTT": {
+    "message": "Autre chose pour éclaircir votre journée"
+  },
+  "optionsTabsSupport": {
+    "message": "Soutien"
+  },
+  "optionsTabsSupportTT": {
+    "message": "Besoin d'aide?"
+  },
+  "optionsTabsTextClips": {
+    "message": "Texte Clips"
+  },
+  "optionsTabsTextClipsTT": {
+    "message": "Texte snippets qui peuvent être insérés dans les champs textes"
+  },
+  "optionsTabsVariables": {
+    "message": "Variables"
+  },
+  "optionsTabsVariablesTT": {
+    "message": "Variables Globalses qui peuvent être utilisées dans vos règles"
+  },
+  "reorderRuleTT": {
+    "message": "Réorganiser la règle"
+  },
+  "removeRuleTT": {
+    "message": "Supprimer la règle"
+  },
+  "moveRuleTT": {
+    "message": "Déplacer cette règle vers un autre profil"
+  },
+  "selectProfileTT": {
+    "message": "Sélectionner un profil"
+  },
+  "optionsTabsSiteInputTT": {
+    "message": "Entrer une partie de <title> ou l'URL à associer pour déclencherles règles de ce profil"
+  },
+  "optionsTabsHotkeyInputTT": {
+    "message": "Combo de touches raccourci utilisé pour exécuter ce profil"
+  },
+  "optionsFieldsTypeCol": {
+    "message": "Type"
+  },
+  "optionsFieldsTypeColHelp": {
+    "message": "Type du champ pour autofill."
+  },
+  "optionsFieldsNameCol": {
+    "message": "Nom"
+  },
+  "optionsFieldsNameColHelp": {
+    "message": "Identifiant du champ à associer."
+  },
+  "optionsFieldsNameColTooltip": {
+    "message": "<ul><li>Attributs correspondants:<ul><li><tt>name</tt></li><li><tt>id</tt></li><li><tt>title</tt></li><li><tt>placeholder</tt></li><li><tt>aria-label</tt></li><li><tt>aria-labelledby</tt></li><li><tt>aria-describedby</tt></li><li><tt>data-bind</tt></li><li><tt>data-reactid</tt></li><li><tt>ng-model</tt></li><li><tt>value </tt>(entrées checkbox/radio uniquement)</li><li><tt>src </tt>(iframe same-origin uniquement)</li><li><tt>class</tt></li></ul></li><li>Les sélecteurs CSS sont pris en charge.</li><li>Les Expressions Régulières peuvent être utilisées pour faire correspondre les attributs.<ul><li>Caractères réservés:<tt> ^ $ . ? + * \\ | ( ) { } [ ]</tt><br>(ajoutez un<tt> \\ </tt>avant ceux-ci pour correspondre au caractère littéral)</li><li>La correspondance est insensible à la casse.</li></ul></li><li>Tout ce qui se trouve entre<tt> /* </tt>et<tt> */ </tt>est ignoré.</li></ul>"
+  },
+  "optionsFieldsValueCol": {
+    "message": "Valeur"
+  },
+  "optionsFieldsValueColHelp": {
+    "message": "Texte pour autofill ou code à exécuter."
+  },
+  "optionsFieldsValueColTooltip": {
+    "message": "<ul><li>Si Type = Select, entrez le texte/la valeur de l'élément de menu entre guillemets doubles ou numéro d'index pour sélectionner automatiquement. Pour les zones de liste à sélection multiple, séparez chaque sélection par une barre verticale (|); entrez<tt> ! </tt>pour tout sélectionner ou laisser vide pour tout désélectionner. Entrez<tt> ? </tt>pour sélectionner un élément au hasard.</li><li>Si Type = Checkbox/Radio, saisissez<tt> 1 </tt>pour cocher ou<tt> 0 </tt>pour décocher. Ajouter<tt> ! </tt>à la fin pour cocher/décocher tous les éléments. Entrez<tt> ? </tt>pour basculer au hasard.</li><li>Si Type = JavaScript, entrez le code JavaScript. Il sera évalué en dernier.</li></ul>"
+  },
+  "optionsFieldsSiteCol": {
+    "message": "Site"
+  },
+  "optionsFieldsSiteColHelp": {
+    "message": "Titre du Document ou URL requise pour déclencher autofill."
+  },
+  "optionsFieldsSiteColTooltip": {
+    "message": "<ul><li>Cela remplace le filtre du site de profil.</li><li>Mettez plusieurs filtres sur des lignes séparées (ou utilisez &quot;|&quot;).</li><li>Les Expressions Régulières sont prises en charge.<ul><li>Caractères réservés:<tt> ^ $ . ? + * \\ | ( ) { } [ ]</tt><br>(ajoutez un<tt> \\ </tt>avant ceux-ci pour correspondre au caractère littéral)</li><li>La correspondance est insensible à la casse.</li></ul></li></ul>"
+  },
+  "optionsFieldsModeCol": {
+    "message": "Mode"
+  },
+  "optionsFieldsModeColHelp": {
+    "message": "Méthode de remplissage du Formulaire."
+  },
+  "optionsFieldsModeColTooltip": {
+    "message": "<ul><li>Safe &ndash; remplir uniquement les champs vides</li><li>Overwrite &ndash; remplir tous les champs, même s'ils ne sont pas vides</li><li>Prepend &ndash; insérer la Valeur au début du champ</li><li>Append &ndash; insérer la Valeur à la fin du champ</li><li>Wrap &ndash; insérer une Valeur au début et à la fin du champ</li><li>Increment &ndash; ajouter 1 au numéro existant</li><li>Decrement &ndash; soustraire 1 du nombre existant</li></ul>"
+  },
+  "optionsFieldsSite": {
+    "message": "Site"
+  },
+  "optionsFieldsHotkey": {
+    "message": "Raccourci"
+  },
+  "optionsFieldsMove": {
+    "message": "Règle de Déplacement"
+  },
+  "optionsFieldsSelectProfile": {
+    "message": "Sélectionner un profil pour lequel associer une régle autofill."
+  },
+  "optionsFieldsConfirmation": {
+    "message": "Confirmation"
+  },
+  "optionsAdvancedIntro": {
+    "message": "Ici vous pouvez configurer un profil avancé ainsi que les options des règles. Chaque ligne doit respecter cette syntaxe:<code> <i>profile/rule ID</i>: all=true|false delay=0.5-60 forcefill=true|false </code>(cliquez sur <b>Aide</b> pour plus d'informations)."
+  },
+  "optionsExceptionsIntro": {
+    "message": "Pour les pages pour lesquelles vous ne désirez pas activer Autofill. Entrer une partie du titre du document ou de l'URL des pages ci-dessous, avec une entrée pour chaque ligne. <a href=\"https://www.w3schools.com/jsref/jsref_obj_regexp.asp\" target=\"_blank\">Les Expressions Régulières</a> sont prises en charge."
+  },
+  "optionsImportExportIntro": {
+    "message": "Pour importer les paramètres dans Autofill, copier les données CSV dans la boîte ci dessous et cliquer Importer. Pour exporter le paramétrage courant en fichier CSV, cliquer sur Exporter, copier les données générées, copier les dans un éditeur de texte, et sauvegarder le fichier avec l'extension <code>.csv</code>."
+  },
+  "optionsTextClipsIntro": {
+    "message": "Des morceaux de texte peuvent être insérés dans les champs texte via le clic droit du menu contextuel. Suivez la syntaxe dans l'espace réservé ci-dessous. Séparer chaque morceau de texte avec<code> === </code>sur sa propre ligne."
+  },
+  "optionsTextClipsPlaceholder": {
+    "message": "Catégorie (optionnel) > Titre\nTexte à insérer\n===\nTitre\nTexte à insérer"
+  },
+  "optionsVariablesIntro": {
+    "message": "Ici vous pouvez définir des variables à réutiliser au travers de multiples règles. Chaque ligne doit respecter cette syntaxe:<code> <i>variable_name</i> = <i>du texte</i> </code>(cliquez sur <b>Aide</b> pour plus d'informations). Pour utiliser une variable dans une règle, saisir<code> {@<i>variable_name</i>}</code>."
+  },
+  "optionsImportMode": {
+    "message": "Mode d'importation"
+  },
+  "optionsImportReplace": {
+    "message": "Remplacer"
+  },
+  "optionsImportAppend": {
+    "message": "Ajouter"
+  },
+  "optionsImportUrl": {
+    "message": "Pour importere des paramétrages depuis un fichier distant, entrer l'URL du fichier ci-dessous. Le fichier doit être au format plain text et doit avoir la même structure que les données exportées au format CSV."
+  },
+  "optionsImportAutoImport": {
+    "message": "Auto-import paramétrages depuis l'URL ci-dessus lorsque le navigateur demarre"
+  },
+  "optionsOtherOperation": {
+    "message": "Opération"
+  },
+  "optionsOtherAttributesOff": {
+    "message": "Attributs à supprimer"
+  },
+  "optionsOtherAttributesOffHelp": {
+    "message": "Supprimer automatiquement ces attributs au chargement de la page."
+  },
+  "optionsOtherAttributesOffInputTT": {
+    "message": "Saisir une liste d'attributs séparés par des espaces"
+  },
+  "optionsOtherActiveProfile": {
+    "message": "Remplir automatiquement le profil actif seulement"
+  },
+  "optionsOtherActiveProfileHelp": {
+    "message": "Exécuter seulement les règles de remplissage automatique dans le profil actif."
+  },
+  "optionsOtherDelay": {
+    "message": "Retarder Autofill"
+  },
+  "optionsOtherDelaySec": {
+    "message": "secondes"
+  },
+  "optionsOtherDelaySecInputTT": {
+    "message": "Déterminer le nombre de secondes avant le remplissage automatique"
+  },
+  "optionsOtherDelayHelp": {
+    "message": "Ajouter une temporisation avant le remplissage automatique avant l'exécution des règles."
+  },
+  "optionsOtherBackup": {
+    "message": "Sauvegarder les champs texte plus grand que"
+  },
+  "optionsOtherBackupChars": {
+    "message": "caractères"
+  },
+  "optionsOtherBackupCharsInputTT": {
+    "message": "Déterminer le nombre minimu de caractères à sauvegarder"
+  },
+  "optionsOtherBackupHelp": {
+    "message": "Sauvegarder automatiquement les champs texte lorsque le navigateur plante."
+  },
+  "optionsOtherDebug": {
+    "message": "Mode débogage"
+  },
+  "optionsOtherDebugHelp": {
+    "message": "Afficher les message de debugging dans la console du navigateur."
+  },
+  "optionsOtherVars": {
+    "message": "Etendre les variables"
+  },
+  "optionsOtherVarsHelp": {
+    "message": "Remplacer une variable<tt> {&hellip;} </tt>par son résultat. Cliquer ici pour plus d'information."
+  },
+  "optionsOtherManual": {
+    "message": "Mode manuel"
+  },
+  "optionsOtherManualHelp": {
+    "message": "Déclencher Autofill seulement lorsque vous sélectionner un profil."
+  },
+  "optionsOtherOverwrite": {
+    "message": "Ecraser par défaut"
+  },
+  "optionsOtherOverwriteHelp": {
+    "message": "Définir la méthode par défaut du remplissage du formulaire à écraser."
+  },
+  "optionsOtherSiteFilters": {
+    "message": "Filtres web"
+  },
+  "optionsOtherSiteFiltersHelp": {
+    "message": "Définir la politique de filtrage web lors de la génération de règles."
+  },
+  "optionsOtherSkipHidden": {
+    "message": "Ignorer les champs cachés"
+  },
+  "optionsOtherSkipHiddenHelp": {
+    "message": "Ne pas remplir automatiquement les champs qui ne sont pas visibles à l'écran."
+  },
+  "optionsOtherSecurity": {
+    "message": "Securité"
+  },
+  "optionsOtherSubscription": {
+    "message": "Abonnement"
+  },
+  "optionsOtherMask": {
+    "message": "Masquer les mots de passe"
+  },
+  "optionsOtherMaskHelp": {
+    "message": "Remplacer les mots de passe par des points (<small>&bull;</small>)."
+  },
+  "optionsOtherInterface": {
+    "message": "Interface"
+  },
+  "optionsOtherCloseInfobar": {
+    "message": "Fermeture automatique de la barre d'information"
+  },
+  "optionsOtherCloseInfobarExe": {
+    "message": "Après l'exécution des règles"
+  },
+  "optionsOtherCloseInfobarGen": {
+    "message": "Après la génération des règles"
+  },
+  "optionsOtherCloseInfobarAlways": {
+    "message": "Toujours"
+  },
+  "optionsOtherCloseInfobarHelp": {
+    "message": "Choisir le délai de fermeture automatique de la barre d'information."
+  },
+  "optionsOtherMenu": {
+    "message": "Menu contextuel"
+  },
+  "optionsOtherMenuHelp": {
+    "message": "Accéder à Autofill depuis le clic droit du menu contextuel."
+  },
+  "optionsOtherFilterProfiles": {
+    "message": "Filtrer les profils"
+  },
+  "optionsOtherFilterProfilesHelp": {
+    "message": "Afficher uniquement les profils correspondant au filtre du site."
+  },
+  "optionsOtherFluid": {
+    "message": "Mise en page fluide"
+  },
+  "optionsOtherFluidHelp": {
+    "message": "Redimensionner le tableau des règles et les zones de texte pour remplir la fenêtre d'affichage visuelle."
+  },
+  "optionsOtherHideBackup": {
+    "message": "Masquer les profils de sauvegarde"
+  },
+  "optionsOtherHideBackupHelp": {
+    "message": "Ne pas afficher les profils de sauvegarde dans la liste des profils."
+  },
+  "optionsOtherBadge": {
+    "message": "Badge d'icône"
+  },
+  "optionsOtherBadgeHelp": {
+    "message": "Afficher le nombre de règles exécutées sur l'icône d'extension."
+  },
+  "optionsOtherSound": {
+    "message": "Effets sonores"
+  },
+  "optionsOtherSoundHelp": {
+    "message": "Jouer les effets sonores après chaque operation de remplissage."
+  },
+  "optionsOtherVoice": {
+    "message": "Assistant vocal"
+  },
+  "optionsOtherVoiceHelp": {
+    "message": "Entendre l'assistant parler après la génération des règles de remplissage."
+  },
+  "optionsOtherSubHelp": {
+    "message": "Saisissez le numéro de facture figurant dans l'email de confirmation de la commande."
+  },
+  "optionsSupportPracticeForm": {
+    "message": "Formulaire d'entrainement"
+  },
+  "optionsSupportPracticeFormTT": {
+    "message": "Rendez-vous ici pour vous entraîner à créer vos règles autofill"
+  },
+  "optionsSupportSupportForum": {
+    "message": "Forum d'Aide"
+  },
+  "optionsSupportSupportForumTT": {
+    "message": "Rendez-vous ici pour rapporter les problèmes et partager les suggestions d'évolution du projet"
+  },
+  "optionsSupportOnlineHelp": {
+    "message": "Aide en ligne"
+  },
+  "optionsSupportOnlineHelpTT": {
+    "message": "Rendez-vous ici pour lire la documentation complète"
+  },
+  "optionsSupportKeyboardShortcuts": {
+    "message": "Raccourcis Clavier"
+  },
+  "optionsSupportKeyboardShortcutsTT": {
+    "message": "Rendez-vous ici pour voir les raccourcis clavier disponibles"
+  },
+  "optionsSupportPrivacyPolicy": {
+    "message": "Politique de Confidentialité"
+  },
+  "optionsSupportPrivacyPolicyTT": {
+    "message": "Rendez-vous ici pour lire notre Politique de Confidentialité"
+  },
+  "optionsSupportRate": {
+    "message": "Noter"
+  },
+  "optionsSupportRateTT": {
+    "message": "Chaque retour aide — merci!"
+  },
+  "optionsSupportDonate": {
+    "message": "Donner"
+  },
+  "optionsSupportDonateTT": {
+    "message": "Soutenez-moi en tant que développeur indépendant pour que je puisse continuer à améliorer Autofill"
+  },
+  "optionsSupportAbout": {
+    "message": "À Propos de"
+  },
+  "optionsSupportAboutTT": {
+    "message": "Lisez l'histoire d'Autofill"
+  },
+  "confirmProfileDelete": {
+    "message": "Voulez-vous supprimer toutes les règles des profils sélectionnés également?\n\nCliquer sur OK pour valider ou Annuler pour supprimer uniquement le profil et déplacer toutes les règles dans non classé."
+  },
+  "promptNewProfileName": {
+    "message": "Nouveau nom de profil"
+  },
+  "promptProfileName": {
+    "message": "Nom du profil"
+  },
+  "socialLinkFacebookTT": {
+    "message": "Aidez-nous à faire passer le message sur Facebook ^^"
+  },
+  "socialLinkTwitterTT": {
+    "message": "Aidez-nous à faire passer le message sur Twitter ^^"
+  },
+  "socialMessage1": {
+    "message": "Autofill est l'ultime remplisseur de formulaires! #autofill"
+  },
+  "socialMessage2": {
+    "message": "Autofill m'a fait gagner tellement de temps! #autofill"
+  },
+  "socialMessage3": {
+    "message": "J'ai ❤️ cette extension Autofill! #autofill"
+  },
+  "socialMessage4": {
+    "message": "J'ai automatisé mon flux de travail avec Autofill! #autofill"
+  },
+  "socialMessage5": {
+    "message": "J'ai augmenté ma productivité avec Autofill! #autofill"
+  },
+  "socialMessage6": {
+    "message": "J'ai fait mon travail en un temps record avec Autofill! #autofill"
+  },
+  "socialMessage7": {
+    "message": "J'adore cette extension Autofill! #autofill"
+  },
+  "socialMessage8": {
+    "message": "Dites adieu aux formulaires fastidieux avec Autofill! #autofill"
+  },
+  "socialShare": {
+    "message": "Partager:"
+  },
+  "statusOptionsSaved": {
+    "message": "Options sauvegardées."
+  },
+  "statusRuleMoved": {
+    "message": "Règel Autofill rule déplacée dans le profil  \"___\"."
+  },
+  "statusHotkeyDuplicate": {
+    "message": "Ce raccourci est déjà assigné au profil \"___\". Veuillez sélectionner un autre raccourci."
+  },
+  "statusHotkeyDuplicateGlobal": {
+    "message": "Ce raccourci est déjà assigné au Autofill (raccourci clavier global). Veuillez sélectionner un autre raccourci."
+  },
+  "statusProfileCharLimit": {
+    "message": "Le nom du profil ne peut excéder 60 caractères."
+  },
+  "statusProfileDuplicate": {
+    "message": "Duplication du nom de profil détecté."
+  },
+  "statusProfileReserved": {
+    "message": "Ce nom de profil ne peut pas être utilisé."
+  },
+  "statusProfilesSaved": {
+    "message": "Profils sauvegardés."
+  },
+  "statusImportFailed": {
+    "message": "Echec de l'import – veuillez consulter la section Aide pour le format correct du CSV."
+  },
+  "statusServerError": {
+    "message": "Échec de l'importation – erreur de serveur"
+  },
+  "statusRequestError": {
+    "message": "Échec de l'importation – erreur de demande"
+  },
+  "statusChangelogError": {
+    "message": "Impossible de récupérer changelog"
+  },
+  "statusNewsError": {
+    "message": "Impossible de récupérer la mise à jour des actualités"
+  },
+  "statusPreparingData": {
+    "message": "Preparation des données..."
+  },
+  "statusImportingProfile": {
+    "message": "Import du profil \"$1\"..."
+  },
+  "statusImportingRule": {
+    "message": "Import de la règle $1 of $2..."
+  },
+  "statusImportingAdvanced": {
+    "message": "Import des configurations avancées..."
+  },
+  "statusImportingExceptions": {
+    "message": "Import des exceptions..."
+  },
+  "statusImportingOption": {
+    "message": "Import '$1' option..."
+  },
+  "statusImportingTextClips": {
+    "message": "Import morceaux de texte..."
+  },
+  "statusImportingVariables": {
+    "message": "Import des variables..."
+  },
+  "statusSettingsImported": {
+    "message": "Paramétrages importé. Consulter les paramétrages et cliquer sur Sauvegarder pour archiver les changements."
+  },
+  "statusSettingsExported": {
+    "message": "Paramétrages exportés. Copier les données et sauvegarder les dans un fichier CSV."
+  },
+  "statusUnsavedChanges": {
+    "message": "Vous avez des changements non sauvegardés."
+  },
+  "statusGenerating": {
+    "message": "En train de générer..."
+  },
+  "statusDone": {
+    "message": "Requête effectuée!"
+  },
+  "statusEnterValue": {
+    "message": "Entrer une valeur pour le champ en surbrillance."
+  },
+  "statusNoChange": {
+    "message": "Aucun champs impactés."
+  },
+  "statusFieldError": {
+    "message": "Les champs en surbrillance semble comporter une erreur."
+  },
+  "statusInvalidRegex": {
+    "message": "Veuiller saisir une <a href=\"https://www.w3schools.com/jsref/jsref_obj_regexp.asp\" target=\"_blank\">Expression Régulièere</a> valide."
+  },
+  "statusInvalidUrl": {
+    "message": "Veuillez saisir une URL valide."
+  },
+  "statusLoading": {
+    "message": "Chargement..."
+  },
+  "statusPageStillLoading": {
+    "message": "Le chargement de la page est en cours. Veuillez réessayer dans quelques secondes."
+  },
+  "statusVerifying": {
+    "message": "Vérification de l'abonnement..."
+  },
+  "statusVerificationFailed": {
+    "message": "Verification failed. Veuillez envoyer un courriel à <a href=\"mailto:support@tohodo.com?subject=Autofill Subscription\" target=\"_blank\">support@tohodo.com</a> pour obtenir de l'aide."
+  },
+  "wizardTT": {
+    "message": "Cliquer pour ouvrir les Options"
+  },
+  "wizardSearchProfiles": {
+    "message": "Rechercher des profils"
+  },
+  "wizardSearchProfilesTT": {
+    "message": "Sélectionnez un profil pour exécuter toutes les règles de ce profil"
+  },
+  "wizardGen": {
+    "message": "Générer des Règles"
+  },
+  "wizardFillForm": {
+    "message": "Veuillez remplir le formulaire"
+  },
+  "wizardFillField": {
+    "message": "Veuillez remplir le champ."
+  },
+  "wizardChooseProfile": {
+    "message": "Choisir un Profil"
+  },
+  "wizardChooseProfileTT": {
+    "message": "Choisir un profil dans lequel sauvegarder les règles"
+  },
+  "wizardUpdateAlert": {
+    "message": "l'extension a été récemment mis à jour. Veuillez recharger la page pour repartir sur une operation propre."
+  }
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title data-i18n="generalOptions">Autofill</title>
+<link rel="shortcut icon" href="images/icon16.png">
+<link rel="stylesheet" href="css/options.css">
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<script src="js/codeflask.min.js"></script>
+<script src="js/purify.min.js"></script>
+<script src="js/snarkdown.min.js"></script>
+<script src="js/options.js" type="module"></script>
+</head>
+<body id="fields">
+<h1 data-i18n="generalOptions">Autofill</h1>
+<ul id="nav">
+  <li><a id="nav-fields" data-i18n="optionsTabsFields"></a></li>
+  <li><a id="nav-advanced" data-i18n="optionsTabsAdvanced"></a></li>
+  <li><a id="nav-exceptions" data-i18n="optionsTabsExceptions"></a></li>
+  <li><a id="nav-textclips" data-i18n="optionsTabsTextClips"></a></li>
+  <li><a id="nav-variables" data-i18n="optionsTabsVariables"></a></li>
+  <li><a id="nav-importexport" data-i18n="optionsTabsImportExport"></a></li>
+  <li><a id="nav-other" data-i18n="optionsTabsOther"></a></li>
+  <li><a id="nav-support" data-i18n="optionsTabsSupport"></a></li>
+  <li><a id="nav-news" data-i18n="optionsTabsNews"></a></li>
+</ul>
+<p id="header" class="small">
+  <a id="nav-hotkey" target="_blank" data-i18n="generalHotkeys"></a>
+  &nbsp;|&nbsp;
+  <span id="nav-datasize" data-i18n="generalData"></span>
+  &nbsp;|&nbsp;
+  <a id="nav-whatsnew" data-i18n="generalWhatsNew"></a>
+</p>
+<hr class="ruler">
+<p id="status"><span></span></p>
+<div id="tab-fields" class="tab-content">
+  <table id="content-fields">
+    <tbody id="content-fields-body">
+      <tr>
+        <th id="col-type"><span data-i18n="optionsFieldsTypeCol"></span><span class="caption" data-i18n="optionsFieldsTypeColHelp"></span></th>
+        <th id="col-name" class="icon-help"><a id="help-name" class="tt-anchor"></a><span data-i18n="optionsFieldsNameCol"></span><span class="caption" data-i18n="optionsFieldsNameColHelp"></span></th>
+        <th id="col-value" class="icon-help"><a id="help-value" class="tt-anchor"></a><span data-i18n="optionsFieldsValueCol"></span><span class="caption" data-i18n="optionsFieldsValueColHelp"></span></th>
+        <th id="col-site" class="icon-help"><a id="help-site" class="tt-anchor"></a><span data-i18n="optionsFieldsSiteCol"></span><span class="caption" data-i18n="optionsFieldsSiteColHelp"></span></th>
+        <th id="col-mode" class="icon-help"><a id="help-mode" class="tt-anchor"></a><span data-i18n="optionsFieldsModeCol"></span><span class="caption" data-i18n="optionsFieldsModeColHelp"></span></th>
+        <th id="col-action">&nbsp;</th>
+      </tr>
+    </tbody>
+  </table>
+  <form id="content-search">
+    <input type="search" id="content-searchbox" data-i18n="buttonsSearch" required>
+  </form>
+  <p id="content-actionbar">
+    <button id="button-add" data-i18n="buttonsAdd">&plus;</button>
+    <button id="button-search">
+      <svg role="img" aria-labelledby="search-icon-title" viewBox="-3 -3 25.25 25" xmlns="http://www.w3.org/2000/svg">
+        <title id="search-icon-title" data-i18n="buttonsSearch"></title>
+        <g fill="none">
+          <path d="M18.5 18.3l-5.4-5.4" stroke-linecap="square"/>
+          <circle cx="8" cy="8" r="7"/>
+        </g>
+      </svg>
+    </button>
+    <select id="content-cats">
+      <option data-i18n="optionsProfilesMenuProfiles"></option>
+      <option value="all" data-i18n="optionsProfilesMenuAll"></option>
+      <option value="" data-i18n="optionsProfilesMenuUnfiled"></option>
+      <option class="menu-action"></option>
+      <option role="separator">&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</option>
+    </select>
+    <span class="flex-item"><label for="content-site" data-i18n="optionsFieldsSite"></label>:&nbsp;<input id="content-site" data-i18n="optionsTabsSiteInput"></span>
+    <span class="flex-item"><label for="content-hotkey" data-i18n="optionsFieldsHotkey"></label>:&nbsp;<input id="content-hotkey" data-i18n="optionsTabsHotkeyInput"></span>
+  </p>
+</div>
+<div id="tab-advanced" class="tab-content">
+  <p data-i18n="optionsAdvancedIntro"></p>
+  <p>
+    <textarea id="content-advanced" rows="30" spellcheck="false"></textarea>
+  </p>
+</div>
+<div id="tab-exceptions" class="tab-content">
+  <p data-i18n="optionsExceptionsIntro"></p>
+  <p>
+    <textarea id="content-exceptions" rows="30" spellcheck="false"></textarea>
+  </p>
+</div>
+<div id="tab-textclips" class="tab-content">
+  <p data-i18n="optionsTextClipsIntro"></p>
+  <p>
+    <textarea id="content-textclips" rows="30" spellcheck="false"></textarea>
+  </p>
+</div>
+<div id="tab-variables" class="tab-content">
+  <p data-i18n="optionsVariablesIntro"></p>
+  <p>
+    <textarea id="content-variables" rows="30" spellcheck="false"></textarea>
+  </p>
+</div>
+<div id="tab-importexport" class="tab-content">
+  <p data-i18n="optionsImportExportIntro"></p>
+  <p>
+    <textarea id="content-ie" rows="20" spellcheck="false"></textarea>
+  </p>
+  <p>
+    <button id="button-import" data-i18n="buttonsImport"></button>
+    <button id="button-export" data-i18n="buttonsExport"></button>
+    &nbsp; <span data-i18n="optionsImportMode"></span>:&nbsp;
+    <input id="radio-replace" name="import-mode" type="radio" checked="checked"><label for="radio-replace" data-i18n="optionsImportReplace"></label>
+    <input id="radio-append" name="import-mode" type="radio"><label for="radio-append" data-i18n="optionsImportAppend"></label>
+  </p>
+  <hr class="dotted">
+  <p data-i18n="optionsImportUrl"></p>
+  <p>
+    <input id="content-importurl">
+  </p>
+  <p>
+    <button id="button-importurl" data-i18n="buttonsImportUrl"></button>
+    &nbsp; <input id="content-autoimport" type="checkbox"><label for="content-autoimport" data-i18n="optionsImportAutoImport"></label>
+  </p>
+</div>
+<div id="tab-other" class="tab-content">
+  <fieldset>
+    <legend data-i18n="optionsOtherOperation"></legend>
+    <p>
+      <input id="content-attributesoff" type="checkbox"><label for="content-attributesoff" data-i18n="optionsOtherAttributesOff"></label>:
+      &nbsp;
+      <input id="content-attributesoff-list" type="text" data-i18n="optionsOtherAttributesOffInput">
+    </p>
+    <p class="small" data-i18n="optionsOtherAttributesOffHelp"></p>
+    <p>
+      <input id="content-activecat" type="checkbox"><label for="content-activecat" data-i18n="optionsOtherActiveProfile"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherActiveProfileHelp"></p>
+    <p>
+      <input id="content-delay" type="checkbox"><label for="content-delay" data-i18n="optionsOtherDelay"></label>:
+      &nbsp;
+      <input id="content-delay-sec" type="range" min="0.5" max="60" step="0.5" data-i18n="optionsOtherDelaySecInput"> <span id="content-delay-out"></span> <span data-i18n="optionsOtherDelaySec"></span>
+    </p>
+    <p class="small" data-i18n="optionsOtherDelayHelp"></p>
+    <p>
+      <input id="content-backup" type="checkbox"><label for="content-backup" data-i18n="optionsOtherBackup"></label>:
+      &nbsp;
+      <input id="content-backup-chars" type="number" min="1" max="10000" data-i18n="optionsOtherBackupCharsInput"> <span data-i18n="optionsOtherBackupChars"></span>
+    </p>
+    <p class="small" data-i18n="optionsOtherBackupHelp"></p>
+    <p>
+      <input id="content-debug" type="checkbox"><label for="content-debug" data-i18n="optionsOtherDebug"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherDebugHelp"></p>
+    <p>
+      <input id="content-vars" type="checkbox"><label for="content-vars" data-i18n="optionsOtherVars"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherVarsHelp"></p>
+    <p>
+      <input id="content-manual" type="checkbox"><label for="content-manual" data-i18n="optionsOtherManual"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherManualHelp"></p>
+    <p>
+      <input id="content-overwrite" type="checkbox"><label for="content-overwrite" data-i18n="optionsOtherOverwrite"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherOverwriteHelp"></p>
+    <p>
+      <input id="content-sitefilters" type="checkbox"><label for="content-sitefilters" data-i18n="optionsOtherSiteFilters"></label>:
+      &nbsp;
+      <select id="content-sitefilters-sel">
+        <option>Domain + Path</option>
+        <option>Domain + Path + Query</option>
+        <option>Domain + Path + Query + Hash</option>
+      </select>
+    </p>
+    <p class="small" data-i18n="optionsOtherSiteFiltersHelp"></p>
+    <p>
+      <input id="content-skiphidden" type="checkbox"><label for="content-skiphidden" data-i18n="optionsOtherSkipHidden"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherSkipHiddenHelp"></p>
+  </fieldset>
+  <fieldset>
+    <legend data-i18n="optionsOtherInterface"></legend>
+    <p>
+      <input id="content-closeinfobar" type="checkbox"><label for="content-closeinfobar" data-i18n="optionsOtherCloseInfobar"></label>:
+      &nbsp;
+      <select id="content-closeinfobar-sel">
+        <option data-i18n="optionsOtherCloseInfobarExe"></option>
+        <option data-i18n="optionsOtherCloseInfobarGen"></option>
+        <option data-i18n="optionsOtherCloseInfobarAlways"></option>
+      </select>
+    </p>
+    <p class="small" data-i18n="optionsOtherCloseInfobarHelp"></p>
+    <p>
+      <input id="content-menu" type="checkbox"><label for="content-menu" data-i18n="optionsOtherMenu"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherMenuHelp"></p>
+    <p>
+      <input id="content-filtercats" type="checkbox"><label for="content-filtercats" data-i18n="optionsOtherFilterProfiles"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherFilterProfilesHelp"></p>
+    <p>
+      <input id="content-fluid" type="checkbox"><label for="content-fluid" data-i18n="optionsOtherFluid"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherFluidHelp"></p>
+    <p>
+      <input id="content-hidebackup" type="checkbox"><label for="content-hidebackup" data-i18n="optionsOtherHideBackup"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherHideBackupHelp"></p>
+    <p>
+      <input id="content-badge" type="checkbox"><label for="content-badge" data-i18n="optionsOtherBadge"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherBadgeHelp"></p>
+    <p>
+      <input id="content-mask" type="checkbox"><label for="content-mask" data-i18n="optionsOtherMask"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherMaskHelp"></p>
+    <p>
+      <input id="content-sound" type="checkbox"><label for="content-sound" data-i18n="optionsOtherSound"></label>
+    </p>
+    <p class="small" data-i18n="optionsOtherSoundHelp"></p>
+    <p>
+      <input id="content-voice" type="checkbox"><label for="content-voice" data-i18n="optionsOtherVoice"></label>:
+      &nbsp;
+      <select id="content-voice-sel">
+        <option>Elric</option>
+        <option>Jeannie</option>
+        <option>Merlin</option>
+        <option>Sabrina</option>
+        <option>Samantha</option>
+        <option>Simon</option>
+        <option>Random</option>
+      </select>
+    </p>
+    <p class="small" data-i18n="optionsOtherVoiceHelp"></p>
+  </fieldset>
+</div>
+<div id="tab-support" class="tab-content">
+  <h3><a href="https://www.tohodo.com/autofill/form.html" target="_blank" data-i18n="optionsSupportPracticeForm"></a> &raquo;</h3>
+  <h3><a href="https://groups.google.com/g/chrome-autofill" target="_blank" data-i18n="optionsSupportSupportForum"></a> &raquo;</h3>
+  <h3><a href="https://www.tohodo.com/autofill/help.html" target="_blank" data-i18n="optionsSupportOnlineHelp"></a> &raquo;</h3>
+  <h3><a href="https://www.tohodo.com/autofill/help.html#keyboard" target="_blank" data-i18n="optionsSupportKeyboardShortcuts"></a> &raquo;</h3>
+  <h3><a href="https://www.tohodo.com/autofill/help.html#faq" title="Frequently Asked Questions" target="_blank">FAQ</a> &raquo;</h3>
+  <h3><a href="https://www.tohodo.com/autofill/privacy.html" target="_blank" data-i18n="optionsSupportPrivacyPolicy"></a> &raquo;</h3>
+  <h3><a href="https://chrome.google.com/webstore/detail/autofill/nlmmgnhgdeffjkdckmikfpnddkbbfkkk/reviews" target="_blank" data-i18n="optionsSupportRate"></a> &raquo;</h3>
+  <h3><a href="https://www.tohodo.com/autofill/help.html#donate" target="_blank" data-i18n="optionsSupportDonate"></a> &raquo;</h3>
+  <h3><a href="https://www.tohodo.com/autofill/help.html#about" target="_blank" data-i18n="optionsSupportAbout"></a> &raquo;</h3>
+</div>
+<div id="tab-news" class="tab-content">
+  <p><em data-i18n="generalLoading"></em></p>
+</div>
+<hr>
+<div id="footer">
+  <p id="buttons">
+    <button id="button-save" data-i18n="buttonsSave"></button>
+    <button id="button-reset" data-i18n="buttonsReset"></button>
+    <button id="button-help" data-i18n="buttonsHelp"></button>
+  </p>
+  <p id="copyright" class="small">
+    &copy; 2010&ndash;<span id="yearnow"></span> <a href="https://www.tohodo.com/" target="_blank">tohodo.com</a>
+    &nbsp;|&nbsp; <a href="https://www.tohodo.com/autofill/privacy.html" target="_blank">Privacy Policy</a>
+    &nbsp;|&nbsp; <span data-i18n="socialShare"></span>
+    <a id="facebook" href="https://www.facebook.com/sharer.php?t=Hi&u=https%3A%2F%2Fmeyerweb.com%2Feric%2Ftools%2Fdencoder%2F" class="social-link" data-i18n="socialLinkFacebook" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+    <a id="twitter" class="social-link" data-i18n="socialLinkTwitter" target="_blank"><img src="images/twitter.png" alt="Twitter"></a>
+  </p>
+</div>
+<div id="light">
+  <div id="box" tabindex="-1"></div>
+</div>
+<div id="tt"></div>
+</body>
+</html>
